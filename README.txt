@@ -25,5 +25,6 @@ $subject->notifyAll('argument'...);
 $subject->notifyUntil('eventName', false, 'argument'...);
 
 Notification package will help you creating loosely coupled objects focusing on the 
-separation of concerns. I will be updating this package with new additions like
-observer queues, secific event handling and eventually with a 'finite state machine'.
+separation of concerns. I will be updating this package with new additions.
+See the blog post for an introduction.
+http://www.osebboy.com/blog/event-based-notification-system-for-php/
