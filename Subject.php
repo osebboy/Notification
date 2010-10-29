@@ -116,7 +116,7 @@ class Subject
 		}
 		$returnValue = null;
 		$arguments 	 = func_get_args();
-		array_shift($arguments);
+		$arguments 	 = array_slice($arguments, 1);
 		foreach ($this->getHandlers($event) as $handler)
 		{
 			$returnValue = $handler->handle($arguments);
