@@ -27,4 +27,10 @@ $dispatcher->notify('eventName', 'argument1', 'argument2'...);
 
 
 Notification package will help you creating loosely coupled objects focusing on the 
+<<<<<<< HEAD
 separation of concerns. I will be updating this package with new additions.
+=======
+separation of concerns. I will be updating this package with new additions.
+See the blog post for an introduction.
+http://www.osebboy.com/blog/event-based-notification-system-for-php/
+>>>>>>> notification/master
